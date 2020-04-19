@@ -1,5 +1,5 @@
 # Deploying-Containerized-Machine-Learning-model-REST-API-
-Deploying  ML model into production using Nginx web server , Gunicorn, Flask ,dockercompose
+Deploying  ML model into production using Nginx web server , Gunicorn, Flask ,dockercompose  
 Variants SVM models trained on iris dataset are Containerized within flask in app service, Containerized Nginx web server 
 as a reverse proxy for Gunicorn in server service , both services are bounded together in local using dockercompose .
 Gunicorn used to serve the falsk app , in order to run first clone this repository and run svp.py four pkl files will be 
